@@ -1,0 +1,19 @@
+.sidebar {
+  max-width: var(--sidebar-width);
+}
+
+.sidebar .sidebar__title {
+  font-size: var(--font-xxxl);
+}
+
+.sidebar .sidebar__filters-title {
+  font-size: var(--font-xxl);
+  font-weight: var(--font-weight-normal);
+  color: #5c5f60;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}

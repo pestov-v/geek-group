@@ -1,0 +1,17 @@
+.ad__top {
+  height: var(--ad-top-height);
+  background-color: var(--ad-top-color);
+}
+
+.ad__top .ad__top--title {
+  font-size: var(--font-xl);
+  color: #0f1a34;
+}
+
+.ad__top .icon__thumbs {
+  transform: rotate(-20deg);
+}
+
+.ad__top .icon__dress {
+  transform: rotate(20deg);
+}

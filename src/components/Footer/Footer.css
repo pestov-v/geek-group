@@ -1,0 +1,20 @@
+.footer {
+  background-color: #eff1f1;
+}
+
+@media (min-width: 1024px) {
+  .footer .container {
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 1rem;
+  }
+}
+
+.footer__link {
+  color: #2d3132;
+  font-size: var(--font-lg);
+}
+.footer__link:hover {
+  color: #2d3132;
+  opacity: 0.7;
+}

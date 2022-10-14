@@ -1,0 +1,23 @@
+.header {
+  top: var(--ad-top-height);
+  background-color: #fff;
+}
+
+.header__nav .navbar-nav .nav-link {
+  font-size: var(--font-md);
+  transition: opacity 0.22ms;
+}
+
+.header__nav .navbar-nav .nav-link:hover {
+  opacity: 0.8;
+}
+.header__top .btn.add-product {
+  font-size: var(--font-base);
+}
+
+@media (max-width: 1024px) {
+  .header .container {
+    display: flex;
+    justify-content: space-between;
+  }
+}

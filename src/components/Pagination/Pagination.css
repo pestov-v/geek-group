@@ -1,0 +1,23 @@
+.pagination .page-item {
+}
+
+.pagination .pages {
+  display: grid;
+  place-content: center;
+  width: 34px;
+  height: 34px;
+}
+.pagination .page-item > a {
+  color: var(--font-color-base);
+}
+.pagination .page-item.disabled {
+  cursor: not-allowed;
+}
+.pagination .page-item.disabled > a {
+  opacity: 0.3;
+}
+@media (max-width: 1024px) {
+  .pagination-wrapper {
+    display: none;
+  }
+}

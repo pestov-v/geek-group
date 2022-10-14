@@ -1,0 +1,31 @@
+.header__additional .btn:hover,
+.header__additional .btn:focus,
+.header__additional .btn:active {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.header__additional .btn .badge {
+  width: 14px;
+  height: 14px;
+  top: 0;
+  right: -0.5rem;
+  display: grid;
+  place-content: center;
+  color: var(--font-color-base);
+  font-size: var(--font-sm);
+  font-weight: var(--font-weight-normal);
+  background-color: var(--bg-color-primary);
+}
+
+.header__additional .btn .badge.orange {
+  background-color: #ff5449;
+  color: #fff;
+}
+
+@media (max-width: 1024px) {
+  .header__additional {
+    display: none !important;
+  }
+}

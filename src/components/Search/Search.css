@@ -1,0 +1,26 @@
+@media (max-width: 1024px) {
+  .header__search {
+    display: none;
+  }
+}
+
+.header__search .input-group .btn {
+  z-index: 6;
+}
+
+.search__icon path {
+  fill: #5c5f60;
+}
+
+.header__search .input-group .header__search-input {
+  border-top-left-radius: var(--bs-border-radius) !important;
+  border-bottom-left-radius: var(--bs-border-radius) !important;
+  padding-left: 2.5rem;
+}
+.header__search .header__search-input::placeholder {
+  font-size: var(--font-base);
+}
+
+.header__search .search__input {
+  border-left-color: transparent;
+}

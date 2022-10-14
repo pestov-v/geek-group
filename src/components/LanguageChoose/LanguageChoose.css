@@ -1,0 +1,15 @@
+.language-choose .dropdown-toggle {
+  color: var(--font-color-base);
+  font-size: var(--font-base);
+}
+
+.language-choose.dropdown,
+.language-choose .dropdown-menu {
+  min-width: 5rem;
+}
+
+@media (max-width: 1024px) {
+  .language-choose.dropdown {
+    display: none;
+  }
+}

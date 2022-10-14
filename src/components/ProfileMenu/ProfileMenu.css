@@ -1,0 +1,21 @@
+.profile-menu {
+}
+
+.profile-menu .dropdown-toggle {
+  display: flex;
+  align-items: center;
+  grid-gap: 0.2rem;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+}
+.profile-menu .dropdown-toggle:focus,
+.profile-menu .dropdown-toggle:active {
+  background-color: transparent;
+  border: none;
+}
+
+.profile-menu .profile--img {
+  height: 32px;
+  width: 32px;
+}

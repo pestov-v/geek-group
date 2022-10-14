@@ -1,0 +1,54 @@
+:root {
+  --ad-top-height: 44px;
+  --ad-top-color: #cbdcff;
+
+  --header-height: 180px;
+  --sidebar-width: 312px;
+
+  --font-xsm: 8px;
+  --font-sm: 10px;
+  --font-base: 12px;
+  --font-md: 13px;
+  --font-lg: 14px;
+  --font-xl: 16px;
+  --font-xxl: 22px;
+  --font-xxxl: 24px;
+
+  --font-weight-normal: 400;
+  --font-weight-bold: 500;
+  --font-weight-bolder: 700;
+
+  --font-color-base: #000;
+  --font-color-light: #5c5f60;
+
+  --line-height-base: 1rem;
+
+  --font-family-base: 'Stolzl', 'sans-serif';
+  --bs-body-font-family: 'Stolzl', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue',
+    'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol', 'Noto Color Emoji';
+
+  --bg-color-primary: #f5f5f5;
+
+  --mobile-screen: 540px;
+  --tablet-screen: 760px;
+  --desctopscreen: 1024px;
+}
+
+@media (min-width: 540px) {
+  :root {
+    --font-xxl: 14px;
+    --font-xxxl: 16px;
+  }
+}
+@media (min-width: 1024px) {
+  :root {
+    --font-xxl: 18px;
+    --font-xxxl: 20px;
+  }
+}
+
+.dropdown-menu {
+  --bs-dropdown-font-size: var(--font-base);
+  --bs-dropdown-min-width: 60px;
+}
